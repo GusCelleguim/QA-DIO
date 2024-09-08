@@ -185,3 +185,115 @@ Ciclo de vida do bug: do rastreio ao reporte
 ![{667697D6-D5CE-488B-B227-B7B1D5B9C9AB}](https://github.com/user-attachments/assets/7a1613f1-3975-45ce-9a70-950371465bd9)
 
 
+New: Defeito é identificado e cadastrado pela primeira vez
+Assigned: defeito é atribuído para desenvolvedor avaliar
+Open: desenvolvedor inicia análise e correção
+Fixed: Desenvolvedor finaliza correção
+Pending Retest: Estado de espera para o time de teste
+Retest: Estado de execução do reteste
+Verified: Defeito corrigido
+Reopen: Defeito não-corrigido.
+Closed: Corrigido + testado + aprovado
+Duplicate: efeito já encontrado anteriormente
+Rejected: Defeito não é novo.
+Deferred: Será corrigido em versões futuras.
+Not a bug: Quando a anomalia não é de fato um erro depois de analisado
+
+Considerações importantes 
+
+Os processos se adequam ao que o seu time e seu produto precisam!
+O time precisa estar de acordo e entender todo o fluxo de rastreamento de defeitos
+Os defeitos podem e devem ser rastreados em qualquer momento do ciclo de vida do processo de software.
+Principais objetivos dos reports de defeitos:
+Provê às partes interessadas informações a respeito do evento anômalo de forma a tentar isolar, reproduzir e corrigir o problema ou o potencial problema.
+Provê meios para rastrear a qualidade do produto e o impacto destes na atividades de testes e retestes
+Provê ideias para melhoria no processo de desenvolvimento e testes
+
+Consideração Importantes 
+Boa comunicação é essencial!
+Uso eficiente de ferramenta de rastreio e report de bugs
+Comprometimento proativo da equipe no gerenciamento dos defeitos
+
+Informações de um reporte de defeito
+
+Um identificador único
+Título resumindo o problema
+Data/autor
+Identificação do item sob teste e do ambiente
+Fase do ciclo de vida no qual o defeito foi observado
+Descrição completa do defeito para reprodução
+Evidências de auxílio na resolução:
+logs
+dumps de banco de dados
+screenshots
+gravaçãoes
+Resultado esperado
+Severidade
+Urgência/Prioridade
+
+Estado do defeito
+Conclusões/Sugestões
+Impactos
+Histórico
+Referência do teste
+
+ferramentas de teste 
+
+
+Bugzilla - gratuito
+Jira - gratuito e pago
+Trac - gratuito
+Redmine - gratuito
+Asana - gratuito e pago
+Trello - gratuito e pago
+Backlog - gratuito e pago
+ReQtest - pago
+Mantis - gratuito
+Axosoft - pago
+Etraxis - gratuito
+Lighthouse - pago
+Azure Devops - pago
+
+Teate vs Depuração
+
+Processo  de teste 
+Fatores de influência
+Modelo de ciclo de vida
+Níveis e tipos de teste
+Risco de produto e projeto
+Domínio do negócio
+Restrições operacionais
+Políticas e práticas organizacionais
+Normas internas e externas
+
+Atividades de teste
+Planejamento
+Monitoramento e controle do teste
+Análise
+Modelagem
+Implementação
+Execução
+Conclusão 
+
+planejamento de teste 
+Definir propósitos do teste
+Definir a abordagem do teste de acordo com restrições do contexto
+Especificar tarefas e estimativas de prazos
+Algumas estratégias:
+Analítica: baseada na análise de algum fator
+Baseada em modelo: projetados com base em modelo de algum aspecto necessário do produto ( modelo de processo de negócio, de estado, de requisitos não funcionais )
+Metódica: Conjunto pré-definido de testes, comparando as características de qualidade importantes
+
+
+Algumas estratégias:
+Compatível com processo: baseado em padrões definidos pela organização
+Dirigida: orientado pelos stakeholders
+Regressão: evitar regressão de recursos existentes
+Reativo:  é reativo ao componente ou sistema e aos eventos que ocorrem durante a execução
+
+
+monitoramento de teste 
+
+
+Comparação contínua do progresso real com o plano de teste a partir de critérios de avaliação de saídas…ou seja, o ‘done’!
+Utilização de relatórios de progresso
