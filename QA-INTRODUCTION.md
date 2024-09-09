@@ -129,6 +129,3 @@ Teste: Identificação de defeitos e verificação de conformidade com os requis
 Depuração: Localização e correção de defeitos no código.
 
 
-Planejamento de Processos de teste 
-
-
